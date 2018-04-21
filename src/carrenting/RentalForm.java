@@ -17,9 +17,8 @@ public class RentalForm {
     private int period;
     private int rentalCost;
     
-    public RentalForm(int rentalCode, Vehicle vehicle, Customer customer, int period) {
+    public RentalForm(Vehicle vehicle, Customer customer, int period) {
         
-        this.rentalCode = rentalCode;
         this.vehicle = vehicle;
         this.customer = customer;
         this.period = period;
